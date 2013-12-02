@@ -1,7 +1,8 @@
 Changes in this fork:
+---------------------
  - changed the username (dokku instead of git)
  - fixes the nginx reload command in post-deploy
- - default subdomains are created per app
+ - default app subdomain gets created, and removed when an domain is added
 
 
 dokku-nginx-alt
