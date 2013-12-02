@@ -10,8 +10,8 @@ SSL_DIR="$HOME/$APP/ssl"
 # Check if a VHOST exists. If not, default to proxying the server's hostname
 # (which may not always be correct, but worth a try).
 if [[ ! -f $VHOST_PATH ]]; then
-  echo "-----> Creating new $VHOST_PATH with hostname: $HOSTNAME..."
-  echo "$HOSTNAME" > $VHOST_PATH
+  echo "-----> Creating new $VHOST_PATH with hostname: $APP.$HOSTNAME..."
+  echo "$APP.$HOSTNAME" > $VHOST_PATH
 fi
 
 # Remove old nginx.conf if exists
