@@ -69,12 +69,11 @@ case "$1" in
 
   help | domains:help)
     cat <<EOF
-    domains VHOST config:
-      domains <appname>               # list custom domains for app
-      domains:help <appname>          # this help message
-      domains:add <appname> DOMAIN    # add a custom domain to app
-      domains:clear <appname>         # clear all custom domains for app
-      domains:remove <appname> DOMAIN # remove a custom domain from app
+    domains <appname>               # list custom domains for app
+    domains:help <appname>          # this help message
+    domains:add <appname> DOMAIN    # add a custom domain to app
+    domains:clear <appname>         # clear all custom domains for app
+    domains:remove <appname> DOMAIN # remove a custom domain from app
 EOF
   ;;
 esac
