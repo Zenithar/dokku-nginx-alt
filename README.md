@@ -1,4 +1,7 @@
-This fork only changes the username (dokku instead of git), and fixes the nginx reload command in post-deploy.
+Changes in this fork:
+ - changed the username (dokku instead of git)
+ - fixes the nginx reload command in post-deploy
+ - default subdomains are created per app
 
 
 dokku-nginx-alt
