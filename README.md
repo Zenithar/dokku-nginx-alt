@@ -1,3 +1,6 @@
+This fork only changes the username (dokku instead of git), and fixes the nginx restart command in post-deploy.
+
+
 dokku-nginx-alt
 ==============
 
