@@ -69,7 +69,7 @@ case "$1" in
 
   help | domains:help)
     cat <<EOF
-    Domains VHOST config:
+    domains VHOST config:
       domains <appname>               # list custom domains for app
       domains:help <appname>          # this help message
       domains:add <appname> DOMAIN    # add a custom domain to app
