@@ -1,12 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -eo pipefail; [[ $DOKKU_TRACE ]] && set -x
 # domains [appname] - list all domain names
 # domains:help
 # domains:add [appname] DOMAIN
 # domains:clear [appname]
 # domains:remove [appname] DOMAIN
-set -e
 APP_NAME="$2"
-APP_PATH="/home/dokku/$APP_NAME"
+APP_PATH="$DOKKU_ROOT/$APP_NAME"
 VHOST_PATH="$APP_PATH/VHOST"
 
 if [[ $1 == 'domains' ]] || [[ $1 == 'domains:*' ]]; then
