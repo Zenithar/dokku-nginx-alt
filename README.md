@@ -61,7 +61,7 @@ Installation and Usage
    
 5. To over-ride the default `nginx.conf` and `nginx.ssl.conf` templates, place 
    copies renamed as `nginx.template` and `nginx.ssl.template` in your
-   `/home/git/$APP` directory. When you re-push your application, you should see
+   `/home/dokku/$APP` directory. When you re-push your application, you should see
    a message like:
 
    ```sh
